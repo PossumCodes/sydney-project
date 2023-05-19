@@ -1,5 +1,17 @@
-h1 {
+h1,
+h2 {
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
   font-size: 50px;
   font-weight: bolder;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  font-size: 12px;
 }
