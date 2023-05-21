@@ -61,6 +61,13 @@ body {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: white;
+  color: #028140;
+  transition: all 100ms ease-in-out;
+  border: #028140 1px solid;
+}
+
 .instagram-embed {
   margin: 30px 0;
 }
@@ -125,6 +132,12 @@ header a {
   color: #028140;
   padding: 16px 32px;
   margin-top: 32px;
+}
+
+header a:hover {
+  background-color: #028140;
+  color: white;
+  transition: all 100ms ease-in-out;
 }
 
 footer {
