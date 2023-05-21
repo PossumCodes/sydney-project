@@ -197,7 +197,7 @@ main p {
   opacity: 0.7;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
   header {
     padding: 60px 0;
   }
