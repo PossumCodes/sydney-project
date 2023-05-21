@@ -10,7 +10,7 @@ body {
 
 .grid {
   display: grid;
-  grid-gap: 25px;
+  grid-gap: 40px;
 }
 
 .grid-2-col {
@@ -21,10 +21,49 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-cafe-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #028140;
+  text-decoration: none;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 header {
@@ -111,9 +150,9 @@ footer a {
   opacity: 0.7;
 }
 
-.street-img {
-  max-width: 800px;
-  max-height: 700px;
+.img-responsive {
+  max-width: 100%;
+  display: block;
 }
 
 main {
@@ -135,6 +174,20 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
   margin: 0;
 }
 
@@ -164,10 +217,6 @@ main p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 13px;
-  }
-
-  .street-img {
-    max-width: 100%;
   }
 
   section {
